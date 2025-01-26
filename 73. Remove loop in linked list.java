@@ -12,9 +12,7 @@ class Solution {
             return;
         }
         slow = head;
-        Node prev = null; 
         while (slow != fast) {
-            prev = fast;
             slow = slow.next;
             fast = fast.next;
         }
